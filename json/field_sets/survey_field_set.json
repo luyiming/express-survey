@@ -1,0 +1,184 @@
+[
+  {
+    "title": "您的院系？",
+    "name": "q1",
+    "type": "select",
+    "options": [
+      "理工科",
+      "文科",
+      "其它"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "您的年级？",
+    "name": "q2",
+    "type": "select",
+    "options": [
+      "大一",
+      "大二",
+      "大三",
+      "大四",
+      "其他"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "在做这份调查问卷前您了解什么是翻墙吗？",
+    "name": "q3",
+    "type": "select",
+    "options": [
+      "很了解",
+      "了解一点",
+      "不了解"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "您有自己尝试过翻墙吗？",
+    "name": "q4",
+    "type": "select",
+    "options": [
+      "有",
+      "没有"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "您一般通过什么方式翻墙？",
+    "name": "q5",
+    "type": "select",
+    "options": [
+      "购买 VPN",
+      "自建服务器",
+      "校园网 IPv6",
+      "一些秘法",
+      "我不会翻墙"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "generalTitle": "您翻墙的目的是？（多选）",
+    "title": "学术需要（Google 等）",
+    "name": "q6-1",
+    "type": "checkbox"
+  },
+  {
+    "title": "浏览社交娱乐网站（Ins，Facebook，Youtube 等）",
+    "name": "q6-2",
+    "type": "checkbox"
+  },
+  {
+    "title": "使用被墙的服务（Dropbox，Gmail 等）",
+    "name": "q6-3",
+    "type": "checkbox"
+  },
+  {
+    "title": "玩游戏",
+    "name": "q6-4",
+    "type": "checkbox"
+  },
+  {
+    "title": "浏览色情网站",
+    "name": "q6-5",
+    "type": "checkbox"
+  },
+  {
+    "title": "其他",
+    "name": "q6-6",
+    "type": "checkbox"
+  },
+  {
+    "title": "您对“墙”有什么看法？",
+    "name": "q7",
+    "type": "select",
+    "options": [
+      "支持，这样可以防止一些外部不法势力宣扬一些反动思想",
+      "反对，我们应该有自由访问外网的权利",
+      "不感冒"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "你认为翻墙是违法行为吗？",
+    "name": "q8",
+    "type": "select",
+    "options": [
+      "是的",
+      "不是",
+      "不确定"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "墙的存在是否对你的生活造成了影响？",
+    "name": "q9",
+    "type": "select",
+    "options": [
+      "影响很大",
+      "有点影响",
+      "没有影响"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "觉得长城防火墙有必要吗？",
+    "name": "q10",
+    "type": "select",
+    "options": [
+      "有，维持现状",
+      "有，需要加强",
+      "有，但是力度过大",
+      "没有"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "你觉得长城防火墙是一种闭关锁国的表现吗？",
+    "name": "q11",
+    "type": "select",
+    "options": [
+      "是",
+      "不是"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "如果网络自由，你认为自己有能力辨别是非好坏吗？",
+    "name": "q12",
+    "type": "select",
+    "options": [
+      "有",
+      "没有",
+      "不确定"
+    ],
+    "validations": {
+      "required": true
+    }
+  },
+  {
+    "title": "您对防火墙有什么看法吗？",
+    "name": "q13",
+    "type": "text"
+  }
+]

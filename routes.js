@@ -32,11 +32,16 @@ fs.readdirSync(path.join(__dirname, 'json', 'survey_instances')).forEach(functio
     });
   });
 
+  router.get('/thanks', function(req, res) {
+    res.render('thanks');
+  });
+
   router.post(instance.url, function(req, res) {
     var submittedValues = req.body;
     instance.save(submittedValues, req.query.token).then(
       function () {
-        res.redirect(instance.url + '/results' + (req.query.token ? '?token=' + req.query.token : ''));
+        res.redirect("/thanks");
+        // res.redirect(instance.url + '/results' + (req.query.token ? '?token=' + req.query.token : ''));
       },
       function (fieldErrors) {
         res.status(400).render('questions', _.extend(instance.toJSON(), {fieldErrors: fieldErrors, values: submittedValues, token: req.query.token}));

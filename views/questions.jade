@@ -28,6 +28,8 @@ block content
             if fieldErrors && fieldErrors.hasOwnProperty(f.name)
               span.help-block= fieldErrors[f.name]
         else
+          if f.hasOwnProperty("generalTitle")
+            label.control-label #{f.generalTitle} #{"*"}
           div.checkbox
             label
               include ./fields/checkbox.jade
