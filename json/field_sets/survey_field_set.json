@@ -175,10 +175,5 @@
     "validations": {
       "required": true
     }
-  },
-  {
-    "title": "您对防火墙有什么看法吗？",
-    "name": "q13",
-    "type": "text"
   }
 ]

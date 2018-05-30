@@ -4,5 +4,5 @@
   "html_escape_message": false,
   "invite_list": "example_invite_list",
   "invitation_transporter": "slack",
-  "field_set": "example_field_set"
+  "field_set": "survey_field_set"
 }

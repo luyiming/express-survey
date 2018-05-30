@@ -10,6 +10,8 @@ block content
       p.lead!= message
     else
       p.lead= message
+    p 在中国，有一个叫 “中国长城防火墙” 的东西，是中国政府在其互联网边界审查系统的统称，起始于1998年。这个防火墙造成了我们在访问诸多国外网站时（Google, YouTube），会出现网速过慢甚至无法连接的情况。很多人为了能够正常访问这些网站，就出现了所谓的翻墙上网的情况。
+    div(style="margin:")
     form(role="form", action="#{url}#{user && user.token ? '?token=' + user.token : ''}", method="post")
       each f in fields
         //- field names starting with an underscore are considered auto-generated aka internal... don't show on questions page.  Note: This should be refactored; it is not clear.
@@ -35,4 +37,5 @@ block content
               include ./fields/checkbox.jade
       div.form-group
         button.btn.btn-primary(type="submit") Submit
-    a(href="#{url}/results#{user && user.token ? '?token=' + user.token : ''}") Responses
+    //- a(href="#{url}/results#{user && user.token ? '?token=' + user.token : ''}") Responses
+    //- a(href="https://github.com/luyiming") click-click
